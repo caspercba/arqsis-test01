@@ -148,9 +148,9 @@ module.exports = {
     *                                                                          *
     ***************************************************************************/
     cors: {
-       allowOrigins: [
-		      'https://arqsis-test01.herokuapp.com/'
-       ]
+      allowOrigins: [
+        'https://arqsis-test01.herokuapp.com'
+      ]
     },
 
   },
@@ -250,10 +250,11 @@ module.exports = {
     * > Be sure to use the right protocol!  ("http://" vs. "https://")         *
     *                                                                          *
     ***************************************************************************/
-    // onlyAllowOrigins: [
-    //   'https://example.com',
-    //   'https://staging.example.com',
-    // ],
+      onlyAllowOrigins: [
+         'https://example.com',
+         'https://staging.example.com',
+         'https://arqsis-test01.herokuapp.com' 
+      ],
 
 
     /***************************************************************************
